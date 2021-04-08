@@ -1,0 +1,88 @@
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #626035;
+}
+
+h2 {
+  color: #626035;
+}
+
+body {
+  margin: 0 0 100px;
+}
+
+.fas-title {
+  color: #c8c6a7;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+
+.container-lg {
+  height: 100%;
+}
+
+/***************** navbar ****************/
+
+.bg-dark {
+  background-color: #435560 !important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #c06014;
+  font-weight: 700;
+}
+/****************** end navbar *************/
+
+/*********** navbar fabs ***************/
+.fab {
+  font-size: 1.5rem;
+  color: #f3f4ed;
+}
+
+.fab:hover {
+  color: #c06014;
+}
+
+/*********** end navbar fabs ************/
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+/******************* footer section **********/
+
+.fixed-row-bottom {
+  position: fixed;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  text-align: center;
+  height: 60px;
+  background-color: #435560;
+  line-height: 60px;
+  align-self: flex-end;
+  font-size: 12px;
+  color: #fff;
+  width: 100%;
+}
+
+/*************** end footer ***************/
+
+/************** smaller screens *************/
+
+@media (max-width: 1199px) {
+  .rightside {
+    display: none;
+  }
+}
